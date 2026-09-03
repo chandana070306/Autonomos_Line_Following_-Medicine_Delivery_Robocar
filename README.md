@@ -27,20 +27,29 @@ The prototype demonstrates how simple embedded systems and robotics can be appli
 Component | Quantity
 
 Arduino Uno | 1
+
 L298N Motor Driver | 1
+
 DC Geared Motors | 2
+
 IR Line Sensors | 2
+
 Buzzer | 1
+
 Rechargeable Li-ion Battery Pack | 1
+
 Front Wheel | 1
+
 Caster Wheel | 1
+
 Jumper Wires | As required
 
-## 🔌 Pin Configuration
+## Pin Configuration
 
 ### L298N Motor Driver → Arduino Uno
 
 | L298N Pin | Arduino Pin | Function |
+|---|---|---:|
 | ENA | D10 | Left motor speed |
 | IN1 | D11 | Left motor direction |
 | IN2 | D12 | Left motor direction |
@@ -90,7 +99,7 @@ The completed prototype should:
 - The current prototype does not include automatic medicine dispensing.
 - Navigation is based only on two IR sensors.
 
-Future Improvements
+### Future Improvements
 Possible future developments include:
 - Ultrasonic obstacle detection
 - RFID-based destination identification
